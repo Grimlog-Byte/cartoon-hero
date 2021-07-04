@@ -1,18 +1,18 @@
-body {
-		font-family: sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+.profile {
+		text-align: center;
 }
 
-h2 {
-		color: #00a2c6;
+aside {
+	text-align: center;
 }
 
-h3 {
-		color: #00a2c6;
-}
 
 footer {
-
-		padding: 20px;
-		color: white;
-		background-color: #00a2c6;
+   padding: 20px;
+   color: white;
+   background-color: #00a2c6;
+   text-align: center;
+   font-weight: bold;
 }
+
