@@ -1,18 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
-.profile {
+article.profile {
 		text-align: center;
 }
 
-aside {
-	text-align: center;
+img + p {
+   color: gray;
+   font-size: small;
 }
 
+body {
+   font-family: arial;
+}
+
+header#banner {
+   color: white;
+   padding-top: 1px;
+   height: 200px;
+   text-align: center;
+   background-color: #00CFCC;
+   box-sizing: border-box;
+}
+header#banner h1 {
+   font-size: 60px;
+}
+
+
+ul#navigasi
+{
+   background-color: #00AFB4;
+   font-size: 20px;
+   padding: 20px;
+   margin: 0 auto;
+   text-align: center;
+}
+ul#navigasi li {
+   display: inline;
+   text-decoration: none;
+   padding: 0 70px;
+   font-weight: bold;
+}
+ul#navigasi a {
+   text-decoration: none;
+   color: white;
+}
+
+
+
+
+aside {
+  border-radius: 25px;
+  border: 5px solid black;
+  padding: 50px;
+  margin: 0 auto;
+  background-color: white;
+  max-width: 500px;
+  min-width: 300px;  
+}
+table.jadwal {
+      border-collapse: collapse;
+      width: 100%;
+
+}
+table.informasi {
+      border-collapse: collapse;
+      width: 100%;
+      
+}
+
+.informasi tr:nth-child(even){background-color: #f2f2f2;}
+   
+
+}
 
 footer {
    padding: 20px;
    color: white;
-   background-color: #00a2c6;
+   background-color: dimgray;
    text-align: center;
    font-weight: bold;
 }
+
 
