@@ -8,6 +8,14 @@ img + p {
    font-size: small;
 }
 
+footer {
+   padding: 20px;
+   color: white;
+   background-color: #00AFB4;
+   text-align: center;
+   font-weight: bold;
+}
+
 body {
    font-family: arial;
 }
@@ -45,16 +53,15 @@ ul#navigasi a {
 }
 
 
-
-
 aside {
   border-radius: 25px;
-  border: 5px solid black;
+  border: 0px solid black;
   padding: 50px;
   margin: 0 auto;
   background-color: white;
   max-width: 500px;
   min-width: 300px;  
+  box-shadow: 4px 2px 21px 3px rgba(0,0,0,0.27);
 }
 table.jadwal {
       border-collapse: collapse;
@@ -68,16 +75,8 @@ table.informasi {
 }
 
 .informasi tr:nth-child(even){background-color: #f2f2f2;}
-   
 
-}
 
-footer {
-   padding: 20px;
-   color: white;
-   background-color: dimgray;
-   text-align: center;
-   font-weight: bold;
 }
 
 
